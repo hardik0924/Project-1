@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+ #main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+ }
+ #left{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(76, 0, 255);
+ }
+ #right{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 255, 21);
+ }
+ #ltop{
+   position: relative;
+    width: 100%;
+    height: 65%;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+ }
+ #arrow{
+   position: absolute;
+  width: 5%;
+  height: 10%;
+  margin-top: 265px;
+   left:1050px;
+   color: black;
+   font-size: 30px;
+   font-weight: 500;
+background-color: #ffffffa5;
+ }
+ #lbottam{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    padding: 50px 100px;
+    color: #fff;
+    background-color: #141f1f;
+ }
+#hb{
+    position: absolute;
+    top: 25%;
+    right: 92%;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 10px;
+   
+}
+ #rtop{
+    width: 100%;
+    height: 65%;
+    background-color:#fff;
+ }
+ #rbottam{
+   position: relative;
+    width: 100%;
+    height: 35%;
+    background-image: url(https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center;
+ }
+ #textonflower{
+   position: absolute;
+   top: 130px;
+   width: 100%;
+   height: 30%;
+   background-color: #fff;
+   
+ }
+ #textonflower h5{
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 13px;
+   font-weight: 200;
+ }
+ #textonflower h3{
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 20px;
+   font-weight: 800;
+ }
+ #ltop h1{
+    padding: 25px 30px;
+font-family: orbitron;
+
+ }
+ #contentlbottam{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+ }
+ #cntntleft{
+    width: 45%;
+    height: 100%;
+ }
+ #cntntright{
+    width: 45%;
+    height: 100%;
+ }
+#cntntright h4{
+margin-bottom: 22px;
+}
+ #cntntleft p{
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+ }
+
+ .relem{
+    display: flex;
+    width: 100%;
+    height: 50%;
+ }
+ .relemtext{
+    margin-left: 15px;
+ }
+ .relemtext h6{
+    opacity: .5;
+    font-weight: 500;
+ }
+ .row{
+    display: flex;
+margin-top: 7px;
+padding-right: 10px;
+margin-bottom: 23px;
+
+ }
+ #right #rtop{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+ }
+ #rtop a{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   font-size: 15px;
+   margin-bottom: 15px;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   font-family:tiny5 ;
+ }
+ #rtop #selected{
+   position: relative;
+   margin-left: 20px;
+ }
+ #rtop #selected::before{
+   position: absolute;
+  background-color: black;
+  content: "";
+  left: -20px;
+  top: 8px;
+  width: 15px;
+  height: 2px;
+ }
+ #icons{
+   position: absolute;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   top: 0;
+   right: 0;
+ }
+ #icons i{
+   font-size: 20px;
+ }
+ #bottamflower{
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+   width: 100px;
+   height: 120px;
+  background-image: url(https://images.unsplash.com/photo-1493552152660-f915ab47ae9d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: bottom;
+  background-size: cover;
+ }
+ #bottamflower i{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 50px;
+   height: 50px;
+   color: #fff;
+   background-color: #00000081;
+   font-size: 20px;
+   border-radius: 50%;
+ }
+ 
